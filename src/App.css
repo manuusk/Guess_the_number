@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(253, 149, 149);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+}
+
+.container{
+    background-color:rgb(251, 213, 144);
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.head{
+    font-size:30px;
+    padding: 10px;
+}
+input{
+    padding:10px;
+    margin-top: 30px;
+    height: 20px;
+    width:100px;
+    font-size:40px ;
+}
+input:hover{
+    background-color:rgb(235, 244, 164) ;
+    border: none;
+}
+input:focus{
+    background-color:rgb(245, 250, 206) ;
+    border: none;
+}
